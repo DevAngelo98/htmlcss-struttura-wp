@@ -6,7 +6,9 @@
 
 html{
  background-image: url(../img/background.jpg);
- background-size: cover;
+ background-size: contain;
+ padding-bottom: 10px;
+ padding-top: 10px;
 }
 
 .container{
