@@ -54,13 +54,10 @@ header{
  float: left;
  background-color: white;
  width: 50%;
- position: absolute;
  left: 50%;
- transform: translate(-50%);
 }
 
 .third-column{
- position: relative;
  float: right;
  width: 20%;
 }
