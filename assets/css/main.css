@@ -38,8 +38,54 @@ header{
  top: 10px;
 }
 
+.three-column:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
 .first-column{
  float: left;
  background-color: brown;
  width: 20%;
+}
+
+.second-column{
+ float: left;
+ background-color: white;
+ width: 50%;
+ position: absolute;
+ left: 50%;
+ transform: translate(-50%);
+}
+
+.third-column{
+ position: relative;
+ float: right;
+ width: 20%;
+}
+
+.first-widget{
+ background-color: blue;
+ position: relative;
+}
+.second-widget{
+ background-color: pink;
+ position: relative;
+ top: 20px;
+}
+
+.third-widget{
+ background-color: white;
+ position: relative;
+ top: 40px;
+}
+
+footer{
+ position: relative;
+ background-color: white;
+ top: 60px;
+ width: 100%;
+ height: 110px;
+ bottom: 20px;
 }
